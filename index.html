@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/cerulean/bulmaswatch.min.css">
+
+</head>
+
+<body>
+    <section class="hero is-success is-halfheight">
+        <div class="hero-body">
+            <div class="">
+                <p class="title">
+                    Weather Dashboard
+                </p>
+                <p class="subtitle">
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="tile is-vertical is-8">
+        <div class="tile">
+            <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">Search for a city</p>
+                    <p class="subtitle">City Weather</p>
+                    <section id="search" div class="container">
+                        <!-- Search Bar & Search Button Go Here -->
+                        <div class="field">
+                            <label class="label">Enter City Here</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="San Diego">
+                            </div>
+                            <p class="help">Where would you like to know more about the weather?</p>
+                        </div>
+                        <button class="button">
+                            Search
+                        </button>
+                    </section>
+                </article>
+
+                <section id="results" div class="columns is-mobile" class="column is-half">
+                    <ul>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-info">
+                                <p class="title">Search History </p>
+                                <p>Locations previously searched
+                                    <ul id="places">
+                                        <!-- Results List Go here in <li> tags -->
+                                    </ul>
+                                </p>
+                                <ul id="historyListEl">
+                                    <!-- Search History List Goes here in <li> tags -->
+                                </ul>
+                            </article>
+                        </div>
+                        </div>
+                    </ul>
+                </section>
+        
+            </main>
+
+</body>
+
+<div class="container">
+    <div class="notification is-primary">
+        <h1>5-Day Forecast</h1>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column is-one-fifth">is-one-fifth</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column is-one-fifth">is-one-fifth</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column is-one-fifth">is-one-fifth</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column is-one-fifth">is-one-fifth</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column is-one-fifth">is-one-fifth</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</html>
