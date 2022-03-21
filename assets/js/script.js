@@ -18,7 +18,7 @@ var getCoordinates = function () {
     fetch(
         "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid=" + appId )
 
-        
+
 });
 };
 
@@ -38,3 +38,15 @@ var citySearch = function (){
 
 
 searchButton.addEventListener("click", citySearch );
+
+//data elements on page using element creation-appending
+
+//color-coded UV index-if ___> then a color
+
+//get response from 5 day forecast-arrays with datapoint needed, index selection
+
+//convert data-time using moment js
+
+//format or data object with correct formatting 
+
+//search history in local storage= store name and do another API search using that value
